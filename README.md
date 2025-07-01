@@ -2,7 +2,7 @@
 Special Birthday Card for your Friends or Fmaily!
 
 # Demo Link
-- [Demo with Sample Text](https://jkloud.uk/sample-bday)
+- <a href="https://jkloud.uk/sample-bday" target="_blank">Demo with Sample texts</a>
 
 # Screenshots
 
