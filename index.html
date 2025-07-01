@@ -1,0 +1,54 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src='https://cdn.jsdelivr.net/npm/typeit@8.8.3/dist/index.umd.min.js'></script>
+    <title>Happy Birthday!</title>
+</head>
+<body style="background-image: linear-gradient(rgb(255, 199, 249),rgb(191, 201, 255));">
+    <div id="overlay">
+
+
+  <div id="wr" onclick="ev()" class="wrapper">
+    <div class="bgl"></div>
+    <div id="l1" onclick="ev()" class="lid one"></div>
+    <img src="seal.png" class="logo">
+    <div id="l2" onclick="ev()" class="lid two"></div>
+    <div class="envelope"></div>
+  </div>
+  <div id="lt" class="letter">
+    <video autoplay muted loop>
+      <source src="fireworks.mp4" type="video/mp4" />
+    </video>
+    <div class="si">
+      <h1 id="t1" class="title">Happy</h1>
+      <br>
+      <img id="imgg1" class="imgg" src="pic.png" alt="">
+      <br>
+      <h1 id="t2" style="position:relative" class="title" align="center">Birthday!</h1>
+   
+    </div>
+
+  </div>
+</div>
+    
+<h1 style="font-size: 1.7em;" id="element"></h1>
+<script src="./script.js"></script>
+<br/>
+<button onclick="on()" style="display:none;" id="click" class="button-52" role="button">Click Here</button>
+<script>
+    function on() {
+      document.getElementById("overlay").style = "top: 0%;";
+      
+    }
+    function off(){
+      document.getElementById("overlay").style = "top: 100%;";
+    }
+    </script>
+</body>
+</html>
