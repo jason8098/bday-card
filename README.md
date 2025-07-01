@@ -2,6 +2,11 @@
 # Online Birthday Card 
 Special Birthday Card for your Friends or Fmaily!
 
+# Advantages?
+- Easily customizable and can be implemented anywhere.
+- Lightweight: Can be run on almost every mobile devices.
+- Simple, but touching...: trust me, I kinda confessed my ex girl with this ;)
+
 # Demo Link 
 You have to turn the mobile view mode in Dev tools to view this in Desktop
 
