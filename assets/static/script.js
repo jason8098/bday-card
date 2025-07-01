@@ -5,9 +5,20 @@ var lt = document.getElementById('lt');
 var imgg = document.getElementById('imgg1');
 var t1 = document.getElementById('t1');
 var t2 = document.getElementById('t2');
+var overlay = document.getElementById('overlay');
+
 var devWidth = window.innerWidth;
 var a=1;
 var s=1;
+
+function on() {
+  overlay.style = "top: 0%;";
+  
+}
+function off(){
+  overlay.style = "top: 100%;";
+}
+
 if(devWidth>=460){
   alert("This webpage only works in mobile phones. Please use the mobile phone to view this webpage.");
   window.location.reload();
@@ -45,40 +56,36 @@ function ev() {
 
 
   new TypeIt("#element", {
-
+    speed: 100,  // adjust typing speed
     afterComplete: function (){
       document.getElementById("click").style.display="block";
     }
+
     
   })
 
+ // edit the script below 
   .type("Dear <b>Name</b>,")
-
- .break()
-
- .pause(1000)
-
+  .break()
+  .pause(1000)
   .type("It's been <b>quite a while</b> ever since we met each other. ")
   .pause(1000)
-
- .break()
- .pause(1000)
-
+  .break()
+  .pause(1000)
   .type("Although it was short time, we had a <b>great time</b> together,")
   .pause(1000)
   .type(" didn't we?")
-
- .pause(1000)
- .break()
- .break()
- .type("Anyways, ")
- .pause(1200)
- .type("Happy Birthday to you!")
- .pause(300)
- .break()
- .type("<b> AND I WISH YOU A NICE DAY!!!</b>")
- .break()
- .break()
- .pause(1000)
- .type("Click da button below!")
+  .pause(1000)
+  .break()
+  .break()
+  .type("Anyways, ")
+  .pause(1200)
+  .type("Happy Birthday to you!")
+  .pause(300)
+  .break()
+  .type("<b> AND I WISH YOU A NICE DAY!!!</b>")
+  .break()
+  .break()
+  .pause(1000)
+  .type("Click da button below!")
   .go();

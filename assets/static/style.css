@@ -22,7 +22,7 @@ em {
 body {     
   height: 100vh;
   margin: 0;
-  background: linear-gradient(45deg, rgba(gray, .01), rgba(gray, .15));
+  background-image: linear-gradient(rgb(255, 199, 249),rgb(191, 201, 255));
 }
 
 h1 {
