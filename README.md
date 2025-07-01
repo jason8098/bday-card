@@ -21,3 +21,8 @@ You have to turn the mobile view mode in Dev tools to view this in Desktop
 
 <img src="https://raw.githubusercontent.com/jason8098/bday-card/refs/heads/main/screenshots/3.png" width="350px">
 
+
+# TODO..
+- Make it editable by php or whatever...
+- Make a generator kind of thing ig
+- More dynamic actions
